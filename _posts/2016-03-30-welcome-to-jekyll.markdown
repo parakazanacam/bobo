@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome Hadi Bakalım!"
 color:  teal
 width:   6 
 height:  1
