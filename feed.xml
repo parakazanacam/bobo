@@ -11,7 +11,7 @@ layout: null
     <pubDate>{{ site.time | date_to_long_string }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_long_string }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    {% for post in site.posts limit:100 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.excerpt | xml_escape }}</description>
