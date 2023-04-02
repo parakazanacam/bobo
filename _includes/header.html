@@ -7,6 +7,16 @@
   <link rel="preload" href="{{ '/css/style.css' | prepend: site.baseurl | prepend: site.url }}" as="style">
   <link rel="stylesheet" href="{{ '/css/style.css' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="icon" type="image/x-icon" href="{{ site.favicon | prepend: site.baseurl | prepend: site.url }}">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-L4XMJEQW5N"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-L4XMJEQW5N');
+  </script>
+  '+(head)+'
   {% seo %}
   <title>{{ site.title | prepend: page.title }}</title>
 </head>
